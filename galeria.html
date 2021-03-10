@@ -1,0 +1,230 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="icon"   href="img/iconrp.png" type="image/jpg" />
+    <title>GALERIA</title>
+
+<html>
+	<head>
+		<style type="text/css">
+			
+             body{
+                 background-image: url(img/space2.jpg);   
+            }
+            div h1{
+                background-color: rgba(0, 0, 0, 0.53);
+                border-radius: 55px;
+            }
+            
+            h1{
+                
+                color:bisque;
+                text-align:center;
+            }
+            
+             h1:hover {
+				background-color:rgba(244, 89, 7, 0.22);
+            }
+            
+            h2{
+                
+                color:bisque;
+                text-align:center;
+            }
+            
+            
+            *{
+                
+				margin:1px;
+				padding:2px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:cursive, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#522703;
+				color:#97cbf2;
+				text-decoration:none;
+				padding:13px 12px;
+				display:block;
+                border-radius: 55px;
+                transition: all 300ms;
+                display:block;
+    
+			}
+			
+			.nav li a:hover {
+				background-color:#f45907;
+                transform: translateY(10px);
+                box-shadow: 0 5px 5px rgba(60, 4, 52, 0.62), 0 9px 0 rgba(44, 42, 44, 0.47), 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+            
+            * {
+              background-color:#333;
+            }
+
+            .galeria {
+              height: calc( 300px + 3em);
+              width: 500px;
+              margin:1em auto;
+              border: 1px solid #555;
+              position: relative;  
+            }
+
+            .galeria img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              opacity: 0;
+              transition: opacity 3s;
+            }
+
+            .galeria input[type=radio] {
+              position: relative;
+              bottom: calc(-300px - 1.5em);
+              left: .5em;
+            }
+
+            .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+              opacity: 1;
+            }
+
+            .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+              opacity: 1;
+            }
+
+            .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+              opacity: 1;
+            }
+
+            .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+              opacity: 1;
+            }
+			
+		</style>
+	</head>
+	<body>
+
+    <br /><br />
+    <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7753171&style=0010&nbdigits=9&type=page&initCount=10" title="Free Counter" Alt="web counter"   border="0" /></a>    
+
+	<br /><br /><br />
+	<div style="text-align: center; font-size: 30px; border: 1px solid red; border-radius: 55px">
+	    
+	    <h1>ZONA DE ROLEROS</h1>
+	    
+	</div>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="roleplayer.html">ROLEPLAY</a></li>
+				<li><a href="reglamento.html">REGLAMENTO</a>
+               <li><a href="galeria.html">GALERIA</a>
+               <li><a href="biblioteca.html">BIBLIOTECA</a>
+                </li>
+            </ul>				
+		</div>
+		
+		<br /><br /><br />
+       
+        <h2>PAISAJES PARA INSPIRARSE EN UNA NUEVA HISTORIA</h2>
+        
+        <br />
+        
+    <div class="galeria">
+    
+    <input type="radio" name="navegacion" id="_1" checked>
+    
+    <input type="radio" name="navegacion" id="_2">
+    
+    <input type="radio" name="navegacion" id="_3">
+    
+    <input type="radio" name="navegacion" id="_4"> 
+    
+    <img src="img/paisaje%20de%20rol%201.jpg" width="500" height="300" alt="Galeria CSS 1" />
+    
+    <img src="img/paisaje%20de%20rol%202.jpg" width="500" height="300" alt="Galeria CSS 2"  />
+    
+    <img src="img/paisaje%20de%20rol%203.jpg" width="500" height="300" alt="Galeria CSS 3" />
+    
+    <img src="img/paisaje%20de%20rol%204.jpg" width="500" height="300" alt="Galeria CSS 4" />
+    
+  </div>
+   
+    
+    <br /><br />
+    
+    <h2>PERSONAJES QUE TE PUEDEN DAR IDEAS</h2>
+    <div class="galeria">
+    <input type="radio" name="navegacion" id="_1" checked>
+    <input type="radio" name="navegacion" id="_2">
+    <input type="radio" name="navegacion" id="_3">
+    <input type="radio" name="navegacion" id="_4">
+    
+    
+     
+    <img src="img/vampiro%201.jpg" width="500" height="300" alt="Galeria CSS 1" />
+    
+    <img src="img/elfos%202.jpg" width="500" height="300" alt="Galeria CSS 2"  />
+    
+    <img src="img/likantropos%203.jpg" width="500" height="300" alt="Galeria CSS 3" />
+    
+    <img src="img/demonio%204.jpeg" width="500" height="300" alt="Galeria CSS 4" />
+    
+  </div>
+    
+     <br /><br />
+    <h2>CASTILLOS</h2>
+    <div class="galeria">
+    <input type="radio" name="navegacion" id="_1" checked>
+    <input type="radio" name="navegacion" id="_2">
+    <input type="radio" name="navegacion" id="_3">
+    <input type="radio" name="navegacion" id="_4">
+    
+    
+     
+    <img src="img/CASTILLO%201.jpg" width="500" height="300" alt="Galeria CSS 1" />
+    
+    <img src="img/CASTILLO%202.jfif" width="500" height="300" alt="Galeria CSS 2"  />
+    
+    <img src="img/CASTILLO%203.jpg" width="500" height="300" alt="Galeria CSS 3" />
+    
+    <img src="img/CASTILLO%204.jpg" width="500" height="300" alt="Galeria CSS 4" />
+    
+  </div>
+	    </body>
+</html>
+
